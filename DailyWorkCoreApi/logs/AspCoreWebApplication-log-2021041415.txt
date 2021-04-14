@@ -1,0 +1,50 @@
+2021-04-14 15:15:04.323 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 15:15:04.343 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 15:15:04.387 +08:00 [INF] Hosting environment: Development
+2021-04-14 15:15:04.387 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 15:15:04.517 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 176.8831ms
+2021-04-14 15:15:04.747 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 15:15:04.885 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.7714ms
+2021-04-14 15:15:17.960 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=104&password=104 - 0
+2021-04-14 15:15:17.996 +08:00 [INF] CORS policy execution successful.
+2021-04-14 15:15:18.000 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:15:18.030 +08:00 [INF] Route matched with {action = "ValidateUser", controller = "User"}. Executing controller action with signature System.Net.Http.HttpResponseMessage ValidateUser(System.String, System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 15:15:21.864 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+2021-04-14 15:15:21.886 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi) in 3851.8348ms
+2021-04-14 15:15:21.888 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:15:21.889 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=104&password=104 - 0 - 200 - application/json;+charset=utf-8 3929.0026ms
+2021-04-14 15:15:33.109 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=105&password=104 - 0
+2021-04-14 15:15:33.111 +08:00 [INF] CORS policy execution successful.
+2021-04-14 15:15:33.111 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:15:33.111 +08:00 [INF] Route matched with {action = "ValidateUser", controller = "User"}. Executing controller action with signature System.Net.Http.HttpResponseMessage ValidateUser(System.String, System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 15:15:34.857 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+2021-04-14 15:15:34.857 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi) in 1746.0111ms
+2021-04-14 15:15:34.858 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:15:34.858 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=105&password=104 - 0 - 200 - application/json;+charset=utf-8 1748.7157ms
+2021-04-14 15:15:52.174 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=105&password=104 - 0
+2021-04-14 15:15:52.174 +08:00 [INF] CORS policy execution successful.
+2021-04-14 15:15:52.175 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:15:52.175 +08:00 [INF] Route matched with {action = "ValidateUser", controller = "User"}. Executing controller action with signature System.Net.Http.HttpResponseMessage ValidateUser(System.String, System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 15:17:18.779 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 15:17:18.797 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 15:17:18.830 +08:00 [INF] Hosting environment: Development
+2021-04-14 15:17:18.830 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 15:17:18.939 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 144.9410ms
+2021-04-14 15:17:19.131 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 15:17:19.226 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.6613ms
+2021-04-14 15:17:28.307 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=101&password=101 - 0
+2021-04-14 15:17:28.339 +08:00 [INF] CORS policy execution successful.
+2021-04-14 15:17:28.343 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:17:28.363 +08:00 [INF] Route matched with {action = "ValidateUser", controller = "User"}. Executing controller action with signature System.Net.Http.HttpResponseMessage ValidateUser(System.String, System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 15:17:31.739 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+2021-04-14 15:17:31.760 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi) in 3392.6733ms
+2021-04-14 15:17:31.762 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:17:31.763 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=101&password=101 - 0 - 200 - application/json;+charset=utf-8 3455.7499ms
+2021-04-14 15:18:32.061 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=102&password=102 - 0
+2021-04-14 15:18:32.062 +08:00 [INF] CORS policy execution successful.
+2021-04-14 15:18:32.062 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:18:32.062 +08:00 [INF] Route matched with {action = "ValidateUser", controller = "User"}. Executing controller action with signature System.Net.Http.HttpResponseMessage ValidateUser(System.String, System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 15:18:33.499 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+2021-04-14 15:18:33.500 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi) in 1437.3641ms
+2021-04-14 15:18:33.500 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-14 15:18:33.506 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=102&password=102 - 0 - 200 - application/json;+charset=utf-8 1444.6719ms

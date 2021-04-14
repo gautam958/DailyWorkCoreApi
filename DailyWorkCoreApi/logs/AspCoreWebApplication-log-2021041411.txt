@@ -1,0 +1,28 @@
+2021-04-14 11:54:13.615 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:54:13.662 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger - -
+2021-04-14 11:54:13.689 +08:00 [INF] Hosting environment: Development
+2021-04-14 11:54:13.690 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 11:54:13.750 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 11:54:13.755 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger - - - 301 - - 101.5044ms
+2021-04-14 11:54:13.844 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 94.2169ms
+2021-04-14 11:54:13.869 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/swagger-ui-bundle.js - -
+2021-04-14 11:54:13.869 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/swagger-ui.css - -
+2021-04-14 11:54:13.869 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/swagger-ui-standalone-preset.js - -
+2021-04-14 11:54:13.936 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-04-14 11:54:13.936 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-04-14 11:54:13.936 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-04-14 11:54:13.939 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/swagger-ui.css - - - 200 142933 text/css 69.8377ms
+2021-04-14 11:54:13.943 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 73.7512ms
+2021-04-14 11:54:13.954 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 85.2682ms
+2021-04-14 11:54:14.172 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 11:54:14.235 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/favicon-32x32.png - -
+2021-04-14 11:54:14.236 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-04-14 11:54:14.237 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/favicon-32x32.png - - - 200 628 image/png 1.3325ms
+2021-04-14 11:54:14.312 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.5068ms
+2021-04-14 11:56:46.520 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User - -
+2021-04-14 11:56:46.545 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 11:56:46.576 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 11:56:47.530 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-14 11:56:47.543 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 963.0071ms
+2021-04-14 11:56:47.545 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 11:56:47.546 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User - - - 200 - text/json;+charset=utf-8 1026.3349ms

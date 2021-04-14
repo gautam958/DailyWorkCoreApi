@@ -1,0 +1,295 @@
+2021-04-14 12:08:09.588 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:08:09.615 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:08:09.655 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:08:09.656 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:08:09.767 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 156.0427ms
+2021-04-14 12:08:10.021 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:08:10.509 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 487.8442ms
+2021-04-14 12:09:51.753 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:09:51.783 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:09:51.817 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:09:51.818 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:09:51.927 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 149.4879ms
+2021-04-14 12:09:52.118 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:09:52.206 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.3597ms
+2021-04-14 12:11:10.446 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User application/json 143
+2021-04-14 12:11:10.473 +08:00 [INF] CORS policy execution successful.
+2021-04-14 12:11:10.477 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:11:10.502 +08:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DailyWorkCoreApi.Model.Users] Create(DailyWorkCoreApi.Model.Users) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:12:49.567 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:12:49.585 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:12:49.627 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:12:49.628 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:12:49.754 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 172.6099ms
+2021-04-14 12:12:49.953 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:12:50.045 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.2767ms
+2021-04-14 12:13:38.489 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User application/json 145
+2021-04-14 12:13:38.519 +08:00 [INF] CORS policy execution successful.
+2021-04-14 12:13:38.523 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:13:38.547 +08:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DailyWorkCoreApi.Model.Users] Create(DailyWorkCoreApi.Model.Users) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:20:34.553 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:20:34.572 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:20:34.609 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:20:34.610 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:20:34.733 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 164.1453ms
+2021-04-14 12:20:34.988 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:20:35.078 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.0415ms
+2021-04-14 12:21:05.816 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User application/json 134
+2021-04-14 12:21:05.848 +08:00 [INF] CORS policy execution successful.
+2021-04-14 12:21:05.851 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:21:05.875 +08:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DailyWorkCoreApi.Model.Users] Create(DailyWorkCoreApi.Model.Users) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:21:06.606 +08:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DailyWorkCoreApi.Model.Users'.
+2021-04-14 12:21:06.635 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi) in 755.7914ms
+2021-04-14 12:21:06.637 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:21:06.639 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:21:06.721 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User application/json 134 - 500 - text/plain 906.2719ms
+2021-04-14 12:22:24.208 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:22:24.210 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 1.8787ms
+2021-04-14 12:22:24.367 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:22:24.370 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.5438ms
+2021-04-14 12:22:24.377 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/favicon-32x32.png - -
+2021-04-14 12:22:24.383 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-04-14 12:22:24.383 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/favicon-32x32.png - - - 200 628 image/png 5.9846ms
+2021-04-14 12:22:39.981 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/101 - -
+2021-04-14 12:22:39.982 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/101 - - - 404 - - 1.3917ms
+2021-04-14 12:24:36.504 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:24:36.524 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:24:36.559 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:24:36.559 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:24:36.703 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 182.5373ms
+2021-04-14 12:24:36.857 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:24:36.937 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.8472ms
+2021-04-14 12:24:44.009 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/101 - -
+2021-04-14 12:24:44.036 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/101 - - - 404 - - 27.8936ms
+2021-04-14 12:25:17.400 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/v1/api/user - -
+2021-04-14 12:25:17.405 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/v1/api/user - - - 404 - - 5.2812ms
+2021-04-14 12:25:37.437 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User - -
+2021-04-14 12:25:37.446 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:25:37.472 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:25:42.908 +08:00 [ERR]  Get All Users System.FormatException: Element '_id' does not match any field or property of class DailyWorkCoreApi.Model.Users.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass45_0`1.<FindSync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.FindFluent`2.ToCursor(CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.ToList[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at DailyWorkCoreApi.Services.UsersService.Get() in D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi\Services\UsersService.cs:line 26
+   at DailyWorkCoreApi.Controllers.UserController.<>c__DisplayClass4_0.<Get>b__0() in D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi\Controllers\UserController.cs:line 37
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at DailyWorkCoreApi.Controllers.UserController.Get() in D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi\Controllers\UserController.cs:line 35
+2021-04-14 12:25:42.915 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-14 12:25:42.930 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 5450.2929ms
+2021-04-14 12:25:42.932 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:25:42.934 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/v1/User - - - 200 - application/json;+charset=utf-8 5496.9882ms
+2021-04-14 12:25:43.101 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/favicon.ico - -
+2021-04-14 12:25:43.102 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/favicon.ico - - - 404 - - 1.3398ms
+2021-04-14 12:25:48.641 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User/101 - -
+2021-04-14 12:25:48.642 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/v1/User/101 - - - 404 - - 0.8332ms
+2021-04-14 12:25:53.294 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User/ - -
+2021-04-14 12:25:53.294 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:25:53.295 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:27:29.940 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:27:29.958 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:27:29.993 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:27:29.993 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:27:30.109 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 153.3105ms
+2021-04-14 12:27:30.315 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:27:30.398 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.3153ms
+2021-04-14 12:27:36.191 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User - -
+2021-04-14 12:27:36.221 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:27:36.244 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:29:03.336 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:29:03.355 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:29:03.387 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:29:03.388 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:29:03.499 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 146.2623ms
+2021-04-14 12:29:03.687 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:29:03.767 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.3914ms
+2021-04-14 12:29:11.015 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User - -
+2021-04-14 12:29:11.046 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:29:11.070 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:29:11.818 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-14 12:29:11.831 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 757.6384ms
+2021-04-14 12:29:11.833 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:29:11.835 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/v1/User - - - 200 - application/json;+charset=utf-8 819.9139ms
+2021-04-14 12:29:19.606 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User/101 - -
+2021-04-14 12:29:19.610 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/v1/User/101 - - - 404 - - 3.2224ms
+2021-04-14 12:29:24.094 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/v1/User/ - -
+2021-04-14 12:29:24.095 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:29:24.095 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:29:24.099 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-14 12:29:24.099 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 4.3128ms
+2021-04-14 12:29:24.100 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:29:24.100 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/v1/User/ - - - 200 - application/json;+charset=utf-8 5.9106ms
+2021-04-14 12:30:06.394 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User - -
+2021-04-14 12:30:06.395 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:30:06.395 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:30:06.398 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-14 12:30:06.399 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 3.6218ms
+2021-04-14 12:30:06.399 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:30:06.399 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User - - - 200 - application/json;+charset=utf-8 4.4289ms
+2021-04-14 12:30:33.186 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:30:33.203 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:30:33.235 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:30:33.236 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:30:33.353 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 152.8530ms
+2021-04-14 12:30:33.544 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:30:33.625 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.7946ms
+2021-04-14 12:30:37.436 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User - -
+2021-04-14 12:30:37.466 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:30:37.488 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:31:01.920 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:31:01.937 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:31:01.971 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:31:01.971 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:31:02.087 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 152.1566ms
+2021-04-14 12:31:02.276 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:31:02.357 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.6569ms
+2021-04-14 12:31:05.221 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User - -
+2021-04-14 12:31:05.250 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:31:05.276 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:31:06.029 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-14 12:31:06.041 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 761.2ms
+2021-04-14 12:31:06.044 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-14 12:31:06.045 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User - - - 200 - application/json;+charset=utf-8 824.0624ms
+2021-04-14 12:32:09.526 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User application/json 127
+2021-04-14 12:32:09.533 +08:00 [INF] CORS policy execution successful.
+2021-04-14 12:32:09.534 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:32:09.543 +08:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DailyWorkCoreApi.Model.Users] Create(DailyWorkCoreApi.Model.Users) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:32:09.605 +08:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DailyWorkCoreApi.Model.Users'.
+2021-04-14 12:32:09.628 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi) in 85.332ms
+2021-04-14 12:32:09.629 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:32:09.630 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:32:09.684 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User application/json 127 - 500 - text/plain 157.7814ms
+2021-04-14 12:33:11.197 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:33:11.215 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:33:11.250 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:33:11.251 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:33:11.365 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 152.5497ms
+2021-04-14 12:33:11.555 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:33:11.640 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.1021ms
+2021-04-14 12:33:47.778 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User application/json 123
+2021-04-14 12:33:47.806 +08:00 [INF] CORS policy execution successful.
+2021-04-14 12:33:47.810 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:33:47.834 +08:00 [INF] Route matched with {action = "Create", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DailyWorkCoreApi.Model.Users] Create(DailyWorkCoreApi.Model.Users) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-14 12:33:48.584 +08:00 [INF] Executing ObjectResult, writing value of type 'DailyWorkCoreApi.Model.Users'.
+2021-04-14 12:33:48.600 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi) in 760.9261ms
+2021-04-14 12:33:48.602 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Create (DailyWorkCoreApi)'
+2021-04-14 12:33:48.603 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User application/json 123 - 200 - application/json;+charset=utf-8 824.8602ms
+2021-04-14 12:34:05.020 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/101 - -
+2021-04-14 12:34:05.024 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/101 - - - 404 - - 3.3854ms
+2021-04-14 12:35:17.703 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/101 - -
+2021-04-14 12:35:17.705 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/101 - - - 404 - - 1.5101ms
+2021-04-14 12:35:47.588 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:35:47.607 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:35:47.644 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:35:47.644 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:35:47.753 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 149.5488ms
+2021-04-14 12:35:47.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:35:47.962 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/V1/User" for actions - DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi),DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:35:48.015 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 500 - text/plain 70.9560ms
+2021-04-14 12:36:14.238 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:36:14.269 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:36:14.294 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:36:14.294 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:36:14.406 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 147.3992ms
+2021-04-14 12:36:14.586 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:36:14.603 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/V1/User" for actions - DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi),DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:36:14.659 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 500 - text/plain 72.8082ms
+2021-04-14 12:54:39.062 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:54:39.080 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:54:39.114 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:54:39.114 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:54:39.257 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 179.2543ms
+2021-04-14 12:54:39.482 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:54:39.501 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/V1/User" for actions - DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi),DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:54:39.557 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 500 - text/plain 75.1248ms
+2021-04-14 12:55:11.352 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:55:11.369 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-14 12:55:11.400 +08:00 [INF] Hosting environment: Development
+2021-04-14 12:55:11.401 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-14 12:55:11.511 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 143.8810ms
+2021-04-14 12:55:11.705 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-14 12:55:11.790 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.9313ms
+2021-04-14 12:55:25.523 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/102 - -
+2021-04-14 12:55:25.550 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/102 - - - 404 - - 26.7469ms
+2021-04-14 12:55:47.442 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/102 - -
+2021-04-14 12:55:47.451 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/102 - - - 404 - - 8.8751ms
+2021-04-14 12:55:49.914 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/102 - -
+2021-04-14 12:55:49.919 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/102 - - - 404 - - 4.1387ms
