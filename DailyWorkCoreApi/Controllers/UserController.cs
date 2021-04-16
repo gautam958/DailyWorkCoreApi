@@ -73,8 +73,9 @@ namespace DailyWorkCoreApi.Controllers
             return User;
         }
         [HttpPost]
-        public ActionResult<Users> Create(Users userIn)
+        public ActionResult<Users> Post(Users userIn)
         {
+            _logger.LogInformation(_ipAddress + "POST Called - Input Data: " + userIn.ToString());
             _UsersService.Create(userIn);
 
             return userIn;
