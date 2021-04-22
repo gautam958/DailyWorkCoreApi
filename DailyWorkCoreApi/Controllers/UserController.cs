@@ -70,6 +70,7 @@ namespace DailyWorkCoreApi.Controllers
             {
                 _logger.LogError(_ipAddress + "Get single user " +ex.ToString());
             }
+            _logger.LogInformation(_ipAddress + "Get single user check " + userid + System.Text.Json.JsonSerializer.Serialize(User).ToString());
             return User;
         }
         [HttpPost]

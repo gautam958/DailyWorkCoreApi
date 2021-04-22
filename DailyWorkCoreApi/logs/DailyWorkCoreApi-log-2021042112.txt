@@ -1,0 +1,40 @@
+2021-04-21 12:16:40.979 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-21 12:16:41.020 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-21 12:16:41.054 +08:00 [INF] Hosting environment: Development
+2021-04-21 12:16:41.054 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-21 12:16:41.183 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 170.5869ms
+2021-04-21 12:16:41.524 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-21 12:16:41.664 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 140.1146ms
+2021-04-21 12:16:53.096 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/Getuser?userid=101 - -
+2021-04-21 12:16:53.128 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Getuser (DailyWorkCoreApi)'
+2021-04-21 12:16:53.157 +08:00 [INF] Route matched with {action = "Getuser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[DailyWorkCoreApi.Model.Users] Getuser(System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-21 12:16:54.171 +08:00 [INF] ::1:44323[::1:10884]User Controller loaded 
+2021-04-21 12:16:54.344 +08:00 [INF] Executing ObjectResult, writing value of type 'null'.
+2021-04-21 12:16:54.348 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Getuser (DailyWorkCoreApi) in 1187.1897ms
+2021-04-21 12:16:54.350 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Getuser (DailyWorkCoreApi)'
+2021-04-21 12:16:54.352 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/Getuser?userid=101 - - - 204 0 - 1255.8249ms
+2021-04-21 12:17:12.371 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=101&password=101 - 0
+2021-04-21 12:17:12.374 +08:00 [INF] CORS policy execution successful.
+2021-04-21 12:17:12.375 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-21 12:17:12.377 +08:00 [INF] Route matched with {action = "ValidateUser", controller = "User"}. Executing controller action with signature System.Net.Http.HttpResponseMessage ValidateUser(System.String, System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-21 12:17:12.378 +08:00 [INF] ::1:44323[::1:10884]User Controller loaded 
+2021-04-21 12:17:27.054 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+2021-04-21 12:17:27.073 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi) in 14695.4909ms
+2021-04-21 12:17:27.073 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.ValidateUser (DailyWorkCoreApi)'
+2021-04-21 12:17:27.074 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/api/V1/User/ValidateUser?userid=101&password=101 - 0 - 200 - application/json;+charset=utf-8 14703.1450ms
+2021-04-21 12:17:40.596 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User - -
+2021-04-21 12:17:40.596 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-21 12:17:40.600 +08:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.Users]] Get() on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-21 12:17:40.600 +08:00 [INF] ::1:44323[::1:10884]User Controller loaded 
+2021-04-21 12:17:40.618 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.Users, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-21 12:17:40.621 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi) in 20.516ms
+2021-04-21 12:17:40.621 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Get (DailyWorkCoreApi)'
+2021-04-21 12:17:40.621 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User - - - 200 - application/json;+charset=utf-8 25.0266ms
+2021-04-21 12:17:54.110 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/User/Getuser?userid=111 - -
+2021-04-21 12:17:54.110 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UserController.Getuser (DailyWorkCoreApi)'
+2021-04-21 12:17:54.110 +08:00 [INF] Route matched with {action = "Getuser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[DailyWorkCoreApi.Model.Users] Getuser(System.String) on controller DailyWorkCoreApi.Controllers.UserController (DailyWorkCoreApi).
+2021-04-21 12:17:54.110 +08:00 [INF] ::1:44323[::1:10884]User Controller loaded 
+2021-04-21 12:17:54.113 +08:00 [INF] Executing ObjectResult, writing value of type 'DailyWorkCoreApi.Model.Users'.
+2021-04-21 12:17:54.113 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UserController.Getuser (DailyWorkCoreApi) in 2.9121ms
+2021-04-21 12:17:54.113 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UserController.Getuser (DailyWorkCoreApi)'
+2021-04-21 12:17:54.113 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/User/Getuser?userid=111 - - - 200 - application/json;+charset=utf-8 3.6276ms
