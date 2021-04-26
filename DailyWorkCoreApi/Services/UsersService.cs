@@ -14,32 +14,32 @@ namespace DailyWorkCoreApi.Services
 
     public class UsersService
     {
-        private readonly IMongoCollection<Users> _users;
+        private readonly IMongoCollection<user> _users;
         public UsersService(IOptions<SystemConfiguration> _config)
         {
             var client = new MongoClient(_config.Value.ConnectionString);
             var database = client.GetDatabase(_config.Value.DatabaseName);
 
-            _users = database.GetCollection<Users>("Users");
+            _users = database.GetCollection<user>("Users");
         }
 
-        public List<Users> Get() => _users.Find(U => true).ToList();
-        public Users Get(string userid) =>
-           _users.Find<Users>(U => U.Userid == userid).FirstOrDefault();
+        public List<user> Get() => _users.Find(U => true).ToList();
+        public user Get(string userid) =>
+           _users.Find<user>(U => U.Userid == userid).FirstOrDefault();
 
-        public Users Validate(string userid,string password) =>
-          _users.Find<Users>(U => U.Userid == userid && U.Password==password).FirstOrDefault();
+        public user Validate(string userid,string password) =>
+          _users.Find<user>(U => U.Userid == userid && U.Password==password).FirstOrDefault();
 
-        public Users Create(Users User)
+        public user Create(user User)
         {
             _users.InsertOne(User);
             return User;
         }
 
-        public void Update(string userid, Users User) =>
+        public void Update(string userid, user User) =>
             _users.ReplaceOne(book => book.Userid == userid, User);
 
-        public void Remove(Users User) =>
+        public void Remove(user User) =>
             _users.DeleteOne(U => U.Userid == User.Userid);
 
         public void Remove(string userid) =>

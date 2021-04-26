@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace DailyWorkCoreApi.Model
 {
     [BsonIgnoreExtraElements]
-    public class Users
+    public class user
     {
         //[BsonIgnore]
         //[BsonId]
