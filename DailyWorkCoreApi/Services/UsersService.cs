@@ -30,10 +30,10 @@ namespace DailyWorkCoreApi.Services
         public user Validate(string userid,string password) =>
           _users.Find<user>(U => U.Userid == userid && U.Password==password).FirstOrDefault();
 
-        public user Create(user User)
+        public user Create(user user)
         {
-            _users.InsertOne(User);
-            return User;
+            _users.InsertOne(user);
+            return user;
         }
 
         public void Update(string userid, user User) =>
