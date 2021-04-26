@@ -1,0 +1,95 @@
+2021-04-26 17:27:41.277 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-26 17:27:41.297 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-26 17:27:41.345 +08:00 [INF] Hosting environment: Development
+2021-04-26 17:27:41.345 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-26 17:27:41.472 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 177.1223ms
+2021-04-26 17:27:41.954 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-26 17:27:42.001 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/favicon-32x32.png - -
+2021-04-26 17:27:42.025 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-04-26 17:27:42.026 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/favicon-32x32.png - - - 200 628 image/png 24.9624ms
+2021-04-26 17:27:42.099 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.4366ms
+2021-04-26 17:27:48.603 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:27:48.640 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:27:48.668 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:28:17.740 +08:00 [INF] ::1:44323[::1:1218]User Controller loaded 
+2021-04-26 17:28:18.959 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:28:18.971 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 30298.7526ms
+2021-04-26 17:28:18.973 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:28:18.975 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 - application/json;+charset=utf-8 30372.3639ms
+2021-04-26 17:30:05.289 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:30:05.289 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:30:05.289 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:30:05.290 +08:00 [INF] ::1:44323[::1:1218]User Controller loaded 
+2021-04-26 17:30:58.709 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:31:07.753 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 62464.0224ms
+2021-04-26 17:31:07.754 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:31:07.754 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 - application/json;+charset=utf-8 62465.2543ms
+2021-04-26 17:31:19.128 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:31:19.129 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:31:19.129 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:31:19.129 +08:00 [INF] ::1:44323[::1:1218]User Controller loaded 
+2021-04-26 17:31:20.488 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:31:20.489 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 1359.5221ms
+2021-04-26 17:31:20.489 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:31:20.489 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 - application/json;+charset=utf-8 1361.2974ms
+2021-04-26 17:31:48.700 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:31:48.701 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:31:48.701 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:31:48.701 +08:00 [INF] ::1:44323[::1:1218]User Controller loaded 
+2021-04-26 17:31:50.220 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:31:50.221 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 1519.7559ms
+2021-04-26 17:31:50.221 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:31:50.221 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 - text/json;+charset=utf-8 1520.8265ms
+2021-04-26 17:32:24.645 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:32:24.645 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:32:24.645 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:32:24.645 +08:00 [INF] ::1:44323[::1:1218]User Controller loaded 
+2021-04-26 17:33:29.955 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:33:29.958 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 65312.7406ms
+2021-04-26 17:33:29.959 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:33:29.963 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 - text/json;+charset=utf-8 65318.3521ms
+2021-04-26 17:40:44.892 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-26 17:40:44.911 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-26 17:40:44.951 +08:00 [INF] Hosting environment: Development
+2021-04-26 17:40:44.951 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-26 17:40:45.064 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 155.6899ms
+2021-04-26 17:40:45.347 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-26 17:40:45.456 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.8706ms
+2021-04-26 17:40:49.245 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:40:49.275 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:40:49.298 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:40:49.898 +08:00 [INF] ::1:44323[::1:13880]User Controller loaded 
+2021-04-26 17:40:54.459 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:40:54.473 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 5171.1885ms
+2021-04-26 17:40:54.475 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:40:54.477 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 - application/json;+charset=utf-8 5232.2292ms
+2021-04-26 17:42:12.331 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-26 17:42:12.352 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-26 17:42:12.386 +08:00 [INF] Hosting environment: Development
+2021-04-26 17:42:12.386 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-26 17:42:12.498 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 150.6812ms
+2021-04-26 17:42:12.763 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-26 17:42:12.876 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.1545ms
+2021-04-26 17:42:21.394 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:42:21.426 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:42:21.450 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:42:22.064 +08:00 [INF] ::1:44323[::1:13941]User Controller loaded 
+2021-04-26 17:42:25.306 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:42:25.613 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 4158.9908ms
+2021-04-26 17:42:25.615 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:42:25.617 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 270 application/json;+charset=utf-8 4223.1581ms
+2021-04-26 17:43:20.167 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-26 17:43:20.185 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/index.html - -
+2021-04-26 17:43:20.216 +08:00 [INF] Hosting environment: Development
+2021-04-26 17:43:20.217 +08:00 [INF] Content root path: D:\Gautam\POC_Testing\FullStack\DailyWork\SRC\WebAPI\CoreWebApi\DailyWorkCoreApi\DailyWorkCoreApi
+2021-04-26 17:43:20.328 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/index.html - - - 200 - text/html;charset=utf-8 144.8923ms
+2021-04-26 17:43:20.542 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - -
+2021-04-26 17:43:20.642 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.7374ms
+2021-04-26 17:43:28.204 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/api/V1/Users - -
+2021-04-26 17:43:28.236 +08:00 [INF] Executing endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:43:28.261 +08:00 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[DailyWorkCoreApi.Model.user]] Get() on controller DailyWorkCoreApi.Controllers.UsersController (DailyWorkCoreApi).
+2021-04-26 17:43:28.872 +08:00 [INF] ::1:44323[::1:13251]User Controller loaded 
+2021-04-26 17:43:38.752 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DailyWorkCoreApi.Model.user, DailyWorkCoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-04-26 17:43:38.892 +08:00 [INF] Executed action DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi) in 10626.7304ms
+2021-04-26 17:43:38.894 +08:00 [INF] Executed endpoint 'DailyWorkCoreApi.Controllers.UsersController.Get (DailyWorkCoreApi)'
+2021-04-26 17:43:38.896 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/api/V1/Users - - - 200 270 application/json;+charset=utf-8 10693.0257ms

@@ -10,8 +10,7 @@ using Microsoft.Extensions.Options;
 using DailyWorkCoreApi.Shared;
 
 namespace DailyWorkCoreApi.Services
-{
-
+{ 
     public class UsersService
     {
         private readonly IMongoCollection<user> _users;

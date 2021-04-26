@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json.Serialization;
 
 namespace DailyWorkCoreApi
 {
@@ -36,12 +37,19 @@ namespace DailyWorkCoreApi
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DailyWorkCoreApi", Version = "v1" });
             });
 
-            services.AddOptions();
+
 
             services.Configure<SystemConfiguration>(Configuration.GetSection("AppConfig"));
 
             services.AddSingleton<UsersService>();
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            // Add below line otherwise return entity columns are in small case.
+            services.AddControllers() .AddNewtonsoftJson(options =>
+                    {
+                        options.SerializerSettings.ContractResolver = new DefaultContractResolver();
+                    });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
