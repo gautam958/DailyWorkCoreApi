@@ -20,7 +20,7 @@ namespace DailyWorkCoreApi.Services
             var client = new MongoClient(_config.Value.ConnectionString);
             var database = client.GetDatabase(_config.Value.DatabaseName);
 
-            _users = database.GetCollection<user>("Users");
+            _users = database.GetCollection<user>("users");
         }
 
         public List<user> Get() => _users.Find(U => true).ToList();
