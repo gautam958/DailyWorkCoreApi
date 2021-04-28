@@ -23,8 +23,9 @@ namespace DailyWorkCoreApi.Services
         }
 
         public List<user> Get() => _users.Find(U => true).ToList();
-        public user Get(string userid) =>
-           _users.Find<user>(U => U.Userid == userid).FirstOrDefault();
+ 
+        public user Get(string _id) =>
+       _users.Find<user>(U => U._id == _id).FirstOrDefault();
 
         public user Validate(string userid,string password) =>
           _users.Find<user>(U => U.Userid == userid && U.Password==password).FirstOrDefault();
@@ -41,8 +42,8 @@ namespace DailyWorkCoreApi.Services
         public void Remove(user User) =>
             _users.DeleteOne(U => U.Userid == User.Userid);
 
-        public void Remove(string userid) =>
-           _users.DeleteOne(U => U.Userid == userid);
+        public void Remove(string _id) =>
+           _users.DeleteOne(U => U._id == _id);
 
 
     }

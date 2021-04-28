@@ -24,32 +24,35 @@ namespace DailyWorkCoreApi.Controllers
         private readonly ILogger<UsersController> _logger;
         private readonly IOptions<SystemConfiguration> config;
         private readonly UsersService _UsersService;
-        private readonly IHttpContextAccessor httpContextAccessor;
-        public UsersController(IOptions<SystemConfiguration> _config, ILogger<UsersController> logger,UsersService usersService, IHttpContextAccessor httpContextAccessor)
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        string host = string.Empty;
+        public UsersController(IOptions<SystemConfiguration> _config, ILogger<UsersController> logger, UsersService usersService, IHttpContextAccessor httpContextAccessor)
         {
             this.config = _config;
             this._logger = logger;
             this._UsersService = usersService;
-            this.httpContextAccessor = httpContextAccessor;
-            _ipAddress= CustomResponse.GetIPAddress(httpContextAccessor);
-            _logger.LogInformation(_ipAddress +"User Controller loaded ");
+            _httpContextAccessor = httpContextAccessor;
+            _ipAddress = CustomResponse.GetIPAddress(httpContextAccessor);
+            _logger.LogInformation(_ipAddress + "User Controller loaded ");
+            host = _httpContextAccessor.HttpContext.Request.Host.Value;
+            _logger.LogInformation(_ipAddress + " Host Name " + host);
         }
 
         // GET: api/<RoadMapController>
         [HttpGet]
         public async Task<List<user>> Get()
-        { 
-             List <user> lstUsers = new List<user>();
+        {
+            List<user> lstUsers = new List<user>();
             try
-            {   
+            {
                 await Task.Run(() =>
                 {
                     lstUsers = _UsersService.Get();
-                }); 
+                });
             }
             catch (Exception ex)
             {
-                _logger.LogError(_ipAddress+ " Get All Users " +ex.ToString());
+                _logger.LogError(_ipAddress + " Get All Users " + ex.ToString());
             }
             return lstUsers;
         }
@@ -58,7 +61,7 @@ namespace DailyWorkCoreApi.Controllers
         [HttpGet("Getuser")]
         public async Task<user> Getuser(string userid)
         {
-            user User = new  user();
+            user User = new user();
             try
             {
                 await Task.Run(() =>
@@ -68,7 +71,7 @@ namespace DailyWorkCoreApi.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(_ipAddress + "Get single user " +ex.ToString());
+                _logger.LogError(_ipAddress + "Get single user " + ex.ToString());
             }
             _logger.LogInformation(_ipAddress + "Get single user check " + userid + System.Text.Json.JsonSerializer.Serialize(User).ToString());
             return User;
@@ -87,7 +90,7 @@ namespace DailyWorkCoreApi.Controllers
         {
             HttpResponseMessage response;
             user _user = _UsersService.Validate(userid, password);
-            if(_user == null)
+            if (_user == null)
             {
                 return response = CustomResponse.GetResponseMessage<string>("Invalid User", HttpStatusCode.Unauthorized, ResponseType.JSON);
             }
@@ -108,19 +111,22 @@ namespace DailyWorkCoreApi.Controllers
 
             return NoContent();
         }
-        [HttpDelete]
-        public IActionResult Delete(string userid)
+        //  api/V1/users/id
+        [HttpDelete("{id}")]
+        public HttpResponseMessage Delete(string id)
         {
-            var user = _UsersService.Get(userid);
+            _logger.LogInformation(_ipAddress + " HttpDelete " + id);
+            HttpResponseMessage response;
+            var user = _UsersService.Get(id);
 
             if (user == null)
             {
-                return NotFound();
+                return response = CustomResponse.GetResponseMessage<string>("Invalid User", HttpStatusCode.Unauthorized, ResponseType.JSON);
             }
-
-            _UsersService.Remove(user.Userid);
-
-            return NoContent();
+            _logger.LogInformation(_ipAddress + " user found " + user.Userid);
+            _UsersService.Remove(user._id);
+           
+            return response = CustomResponse.GetResponseMessage<user>(user, HttpStatusCode.OK, ResponseType.JSON);
         }
 
         

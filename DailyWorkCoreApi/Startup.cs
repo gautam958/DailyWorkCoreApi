@@ -43,7 +43,7 @@ namespace DailyWorkCoreApi
 
             services.AddSingleton<UsersService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
+            
             // Add below line otherwise return entity columns are in small case.
             services.AddControllers() .AddNewtonsoftJson(options =>
                     {

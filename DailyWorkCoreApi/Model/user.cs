@@ -12,8 +12,8 @@ namespace DailyWorkCoreApi.Model
     {
         //[BsonIgnore]
         //[BsonId]
-        //[BsonRepresentation(BsonType.ObjectId)]
-        //public string _id { get; set; }
+         [BsonRepresentation(BsonType.ObjectId)]
+        public string _id { get; set; }
         
         public string Userid
         { get; set; }
