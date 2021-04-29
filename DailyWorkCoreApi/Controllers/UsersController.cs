@@ -66,7 +66,7 @@ namespace DailyWorkCoreApi.Controllers
             {
                 await Task.Run(() =>
                 {
-                    User = _UsersService.Get(userid);
+                    User = _UsersService.GetByUserId(userid);
                 });
             }
             catch (Exception ex)
@@ -100,7 +100,7 @@ namespace DailyWorkCoreApi.Controllers
         [HttpPut]
         public IActionResult Update(string userid, user userIn)
         {
-            var user = _UsersService.Get(userid);
+            var user = _UsersService.GetByUserId(userid);
 
             if (user == null)
             {
@@ -117,7 +117,7 @@ namespace DailyWorkCoreApi.Controllers
         {
             _logger.LogInformation(_ipAddress + " HttpDelete " + id);
             HttpResponseMessage response;
-            var user = _UsersService.Get(id);
+            var user = _UsersService.GetById(id);
 
             if (user == null)
             {

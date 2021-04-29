@@ -24,8 +24,10 @@ namespace DailyWorkCoreApi.Services
 
         public List<user> Get() => _users.Find(U => true).ToList();
  
-        public user Get(string _id) =>
+        public user GetById(string _id) =>
        _users.Find<user>(U => U._id == _id).FirstOrDefault();
+        public user GetByUserId(string _Userid) =>
+       _users.Find<user>(U => U.Userid == _Userid).FirstOrDefault();
 
         public user Validate(string userid,string password) =>
           _users.Find<user>(U => U.Userid == userid && U.Password==password).FirstOrDefault();
