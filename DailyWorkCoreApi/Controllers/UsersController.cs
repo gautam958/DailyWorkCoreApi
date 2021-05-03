@@ -13,9 +13,11 @@ using System.Net;
 using static DailyWorkCoreApi.Common.CustomResponse;
 using DailyWorkCoreApi.Common;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DailyWorkCoreApi.Controllers
 {
+    [Authorize]
     [Route("api/V1/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -25,12 +27,14 @@ namespace DailyWorkCoreApi.Controllers
         private readonly IOptions<SystemConfiguration> config;
         private readonly UsersService _UsersService;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly MongoHelperService _MongoHelperService;
         string host = string.Empty;
-        public UsersController(IOptions<SystemConfiguration> _config, ILogger<UsersController> logger, UsersService usersService, IHttpContextAccessor httpContextAccessor)
+        public UsersController(IOptions<SystemConfiguration> _config, ILogger<UsersController> logger, UsersService usersService,MongoHelperService mongoHelperService, IHttpContextAccessor httpContextAccessor)
         {
             this.config = _config;
             this._logger = logger;
             this._UsersService = usersService;
+            this._MongoHelperService = mongoHelperService;
             _httpContextAccessor = httpContextAccessor;
             _ipAddress = CustomResponse.GetIPAddress(httpContextAccessor);
             _logger.LogInformation(_ipAddress + "User Controller loaded ");
@@ -47,6 +51,7 @@ namespace DailyWorkCoreApi.Controllers
             {
                 await Task.Run(() =>
                 {
+                    
                     lstUsers = _UsersService.Get();
                 });
             }

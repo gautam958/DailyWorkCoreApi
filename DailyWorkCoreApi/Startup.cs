@@ -15,6 +15,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json.Serialization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace DailyWorkCoreApi
 {
@@ -41,7 +44,25 @@ namespace DailyWorkCoreApi
 
             services.Configure<SystemConfiguration>(Configuration.GetSection("AppConfig"));
 
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Tokens:Issuer"],
+                        ValidAudience = Configuration["Tokens:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Tokens:Key"])),
+                        ClockSkew = TimeSpan.Zero,
+                    };
+                });
+
+            //services.AddSingleton<UsersService>();
             services.AddSingleton<UsersService>();
+            services.AddSingleton<MongoHelperService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             
             // Add below line otherwise return entity columns are in small case.
@@ -71,6 +92,7 @@ namespace DailyWorkCoreApi
                 .AllowAnyMethod()
                 .AllowAnyHeader());
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

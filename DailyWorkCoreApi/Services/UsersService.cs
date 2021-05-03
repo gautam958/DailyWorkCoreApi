@@ -8,17 +8,25 @@ using System.Linq;
 using DailyWorkCoreApi.Model;
 using Microsoft.Extensions.Options;
 using DailyWorkCoreApi.Shared;
+using DailyWorkCoreApi.Services;
 
 namespace DailyWorkCoreApi.Services
 { 
     public class UsersService
     {
         private readonly IMongoCollection<user> _users;
-        public UsersService(IOptions<SystemConfiguration> _config)
-        {
-            var client = new MongoClient(_config.Value.ConnectionString);
-            var database = client.GetDatabase(_config.Value.DatabaseName);
+        private readonly MongoHelperService _mongoHelperService;
+        //IOptions<SystemConfiguration> _config
 
+        // need to pass from dependency injection.
+        public UsersService(IOptions<SystemConfiguration> _config,MongoHelperService mongoHelperService)
+        {
+            //var client = new MongoClient(_config.Value.ConnectionString);
+            //var database = client.GetDatabase(_config.Value.DatabaseName);
+
+            //_users = database.GetCollection<user>("users");
+            _mongoHelperService = mongoHelperService;
+            var database = mongoHelperService.GetMongDb();
             _users = database.GetCollection<user>("users");
         }
 
@@ -46,7 +54,6 @@ namespace DailyWorkCoreApi.Services
 
         public void Remove(string _id) =>
            _users.DeleteOne(U => U._id == _id);
-
-
+        
     }
 }
