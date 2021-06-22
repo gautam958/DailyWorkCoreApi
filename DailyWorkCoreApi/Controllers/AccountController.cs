@@ -62,7 +62,7 @@ namespace DailyWorkCoreApi.Controllers
                 token_type = token.TokenType,
                 creation_Time = token.ValidFrom,
                 expiration_Time = token.ValidTo,
-                Userid = _user._id
+                Userid = _user.Userid
             }) ;
             
         }
